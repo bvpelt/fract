@@ -1,0 +1,10 @@
+blockquote {
+  font-family: "Andale Mono";
+}
+
+blockquote cite {
+  font-family: "Century Schoolbook L";
+  color: red;
+}
+
+/*# sourceMappingURL=blockquote.css.map */

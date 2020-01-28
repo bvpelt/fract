@@ -1,0 +1,21 @@
+{
+  "name": "fract01",
+  "version": "1.0.0",
+  "description": "First try using fractal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fractal",
+    "web",
+    "development",
+    "components"
+  ],
+  "author": "Bart van Pelt <bart.vanpelt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@frctl/fractal": "^1.2.1",
+    "@frctl/handlebars": "^1.1.5"
+  }
+}

@@ -1,0 +1,6 @@
+title: "A simple blockquote component"
+status: wip
+
+context:
+  text: "Blockquotes are the best!"
+  citation: "Fractal Docs"
