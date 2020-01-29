@@ -1,0 +1,19 @@
+body {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: "Century Schoolbook L";
+}
+
+blockquote cite {
+    font-family: "Andale Mono";
+}
+
+
+.header {
+    color: #FFE5C1;
+    background-color: #3E2300;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 10px 10px;
+    font-size: 200%;
+}

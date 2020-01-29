@@ -3,21 +3,10 @@
 /* Create a new Fractal instance and export it for use elsewhere if required */
 const fractal = module.exports = require('@frctl/fractal').create();
 const helpers = require('./.fractal/helpers.js')(fractal);
+const collator = require('./.fractal/collator.js');
 
 const hbs = require('@frctl/handlebars')({
-    helpers: {
-        uppercase: function(str) {
-            return str.toUpperCase();
-        },
-        lowercase: function(str) {
-            return str.toLowerCase();
-        }
-    },
-    partials: {
-        foobar: 'This is a partial!',
-    },
-    pristine: false   // defaults to false, true do not automatically load any bundled helpers into handlebar
-    /* other configuration options here */
+    helpers
 });
 
 /* Set the title of the project */

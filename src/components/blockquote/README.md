@@ -1,7 +1,7 @@
 ---
-label: Startgids
+label: Blockquote
 ---
 
 A blockquote consists of 
-- a heading 
+- a heading describing the quote 
 - a real quota, the cite

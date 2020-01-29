@@ -1,0 +1,11 @@
+
+$library: true !default;
+@import "styles/mixins/bsoft-variables";
+@import "styles/mixins/bootstrap-variables";
+
+
+// Core variables and mixins
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+@import "bootstrap/mixins/bootstrap-mixins";
+

@@ -1,0 +1,262 @@
+//
+// DSO Variables - Bootstrap overwrites
+// --------------------------------------------------
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+$brand-primary:         $bosgroen;
+$brand-success:         $grasgroen;
+$brand-info:            $grasgroen;
+$brand-warning:         $oranje;
+$brand-danger:          $oranje;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+$text-color: $grijs-90;
+$link-color: $grasgroen;
+$link-hover-color: $dso-anchor-hover-color;
+$link-hover-decoration: underline;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: Asap, sans-serif;
+
+$font-size-base: 16px;
+
+$font-size-h1: $dso-font-size-h1;
+$font-size-h2: $dso-font-size-h2;
+$font-size-h3: $dso-font-size-h3;
+$font-size-h4: $dso-font-size-h4;
+$font-size-h5: $dso-font-size-h5;
+$font-size-h6: $dso-font-size-h5;
+
+$line-height-base: 1.5;
+
+$headings-font-family: "Asap", sans-serif;
+$headings-font-weight: bold;
+$headings-color: $bosgroen;
+
+//== Iconography
+//
+//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-default-color: $grasgroen;
+$btn-default-bg: $wit;
+$btn-default-border: $grasgroen;
+
+$btn-primary-color: $wit;
+$btn-primary-bg: $oranje;
+$btn-primary-border: $oranje;
+
+$btn-border-radius-base: 24px;
+
+//== Forms
+//
+//##
+
+//** `<input disabled>` background color
+$input-bg-disabled: $wit;
+//** Text color for `<input>`s
+$input-color: $grijs-90;
+//** `<input>` border color
+$input-border: $bosgroen;
+
+//** Default `.form-control` border radius
+$input-border-radius: 4px;
+
+//** Border color for inputs on focus
+$input-border-focus: $bosgroen;
+
+//** Placeholder text color
+$input-color-placeholder: $grijs-60;
+
+//** `.form-group` margin
+$form-group-margin-bottom: $u2;
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled: default;
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Hover color for dropdown links.
+$dropdown-link-hover-color: $wit;
+//** Hover background for dropdown links.
+$dropdown-link-hover-bg: $grasgroen;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+$grid-gutter-width: 32px;
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+//== Navbar
+//
+//##
+
+$navbar-padding-horizontal: 0;
+
+//== Navs
+//
+//##
+
+$nav-disabled-link-color:                   #a3a3a3 !default;
+$nav-disabled-link-hover-color:             #a3a3a3 !default;
+
+//== Tabs
+//
+//##
+
+$nav-tabs-active-link-hover-color: $zwart;
+
+//== Pills
+//
+//##
+
+//== Pagination
+//
+//##
+
+//== Pager
+//
+//##
+$pager-border: $grasgroen;
+$pager-border-radius: 24px;
+
+$pager-hover-bg: $grasgroen;
+
+$pager-active-bg: $grasgroen;
+$pager-active-color: $wit;
+
+$pager-disabled-color: $grasgroen-40;
+
+//== Jumbotron
+//
+//##
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+//== Tooltips
+//
+//##
+
+//== Popovers
+//
+//##
+
+//== Labels
+//
+//##
+
+//== Modals
+//
+//##
+
+//== Alerts
+//
+//## Define alert colors, border radius, and padding.
+
+$alert-padding: $u2 - 1px; // 1px border
+$alert-border-radius: 0;
+
+$state-success-text: $grijs-90;
+$state-success-bg: $dso-alert-success-bg-color;
+$state-success-border: $dso-alert-success-bg-color;
+
+$state-info-text: $grijs-90;
+$state-info-bg: $dso-alert-info-bg-color;
+$state-info-border: $dso-alert-info-bg-color;
+
+$state-warning-text: $grijs-90;
+$state-warning-bg: $dso-alert-warning-bg-color;
+$state-warning-border: $dso-alert-warning-bg-color;
+
+$state-danger-text: $grijs-90;
+$state-danger-bg: $dso-alert-danger-bg-color;
+$state-danger-border: $dso-alert-danger-bg-color;
+
+//== Progress bars
+//
+//##
+
+$progress-bar-bg: $grasgroen;
+
+//== List group
+//
+//##
+
+//== Panels
+//
+//##
+
+//== Thumbnails
+//
+//##
+
+//== Wells
+//
+//##
+
+$well-bg: $grasgroen-40;
+$well-border: $grasgroen-40;
+
+//== Badges
+//
+//##
+
+//== Breadcrumbs
+//
+//##
+
+$breadcrumb-padding-vertical: 0;
+$breadcrumb-padding-horizontal: 12px;
+$breadcrumb-bg: none;
+$breadcrumb-color: $grijs-70;
+$breadcrumb-separator: "|";
+
+//== Carousel
+//
+//##
+
+//== Close
+//
+//##
+
+//== Code
+//
+//##
+
+//== Type
+//
+//##
+
+//** Text muted color
+$text-muted: $grijs-60;
