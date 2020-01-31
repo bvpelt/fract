@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link media="all" rel="stylesheet" href="{{ path '/css/example.css' }}">
-    <title>{{ _target.label }} | Preview Layout</title>
+    <link media="all" rel="stylesheet" href="{{ path '/css/bsoft.css' }}">
+    <title>{{ _target.label }} | {{ _config.project.title }} | - Component Preview</title>
 </head>
 <body>
-
-{{{ yield }}}
-
+<div class="container">
+    {{{ yield }}}
+</div>
 </body>
 </html>
