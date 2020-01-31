@@ -18,7 +18,7 @@ $ npm install --save @frctl/handlebars
 ## IDE
 Using webstorm
 
-Configuration for scss see [configuratie](webstorm-scss.png "voorbeeld")
+Configuration for scss ![](webstorm-scss.png "voorbeeld")
 
 ## References
 - fractal
